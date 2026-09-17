@@ -190,8 +190,8 @@ public class TestCases {
     @AfterTest
     public void endTest()
     {
-        //  driver.close();
-        //  driver.quit();
+          driver.close();
+          driver.quit();
 
     }
 }
